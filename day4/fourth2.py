@@ -62,7 +62,6 @@ def check(arr):
                         continue
 
             if an==True:
-                print(se)
                 valids+=1
 
         else:
