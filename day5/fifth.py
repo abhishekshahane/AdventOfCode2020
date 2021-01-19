@@ -13,4 +13,7 @@ for each in remove:
     ans2 = e.replace('L','0').replace('R', '1')
     seat_ids.append(int(ans1,2)*8+int(ans2,2))
 print(max(seat_ids))
-
+for i in range(100, max(seat_ids)-100):
+    if i not in seat_ids:
+        print(i)
+    
